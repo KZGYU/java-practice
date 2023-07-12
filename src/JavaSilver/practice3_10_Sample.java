@@ -1,11 +1,11 @@
 package JavaSilver;
 
-public class practice4_10_Sample {
+public class practice3_10_Sample {
 	private int num;
-	public practice4_10_Sample(int num) {
+	public practice3_10_Sample(int num) {
 		this.num=num;
 	}
-	public boolean equals(practice4_10_Sample obj) {
+	public boolean equals(practice3_10_Sample obj) {
 		if (obj == null) {
 			return false;
 		}

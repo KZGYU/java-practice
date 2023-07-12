@@ -1,6 +1,6 @@
 package JavaSilver;
 
-public class practice4_20_Main {
+public class practice3_20_Main {
 	public static void main(String[] args) {
 		final int NUM=0;
 		int num=10;

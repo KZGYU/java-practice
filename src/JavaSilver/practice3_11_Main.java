@@ -1,6 +1,6 @@
 package JavaSilver;
 
-public class practice4_11_Main {
+public class practice3_11_Main {
 	public static void main(String[] args) {
 		String a =new String("sample");
 		String b ="sample";

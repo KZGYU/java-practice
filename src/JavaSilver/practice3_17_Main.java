@@ -1,6 +1,6 @@
 package JavaSilver;
 
-public class practice4_17_Main {
+public class practice3_17_Main {
 	public static void main(String[] args) {
 		int num =10;
 		if(num<10)
