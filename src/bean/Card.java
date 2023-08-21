@@ -2,9 +2,8 @@ package bean;
 
 /**
  * カード用のbean
-・トランプ柄と数字情報の列挙型クラスを持ったbean
-・toString()で、各クラスに応じた文字列表現
-・setNumberは、Aの値(1と11)を切りかえるときに使う
+ * @author copper_dog
+ *
  */
 public class Card {
 
@@ -39,6 +38,7 @@ public class Card {
 
 	/**
 	 * トランプの柄の列挙クラス
+	 * @author copper_dog
 	 */
 	public enum Suite {
 		SPADE("♠"), CLUB("♣"), DIAMOND("♦"), HEART("♥");
@@ -59,6 +59,7 @@ public class Card {
 
 	/**
 	 * トランプの数字の列挙クラス
+	 * @author copper_dog
 	 */
 	public enum Number {
 		n1_1(11,"A ",true),n1_2(1,"A ",false),n2(2,"2 ",true),n3(3,"3 ",true),
@@ -96,7 +97,7 @@ public class Card {
 	 */
 	@Override
 	public String toString() {
+		//例 : (♦A )とか(♥6 )とか(♣10)
 		return "(" + suite.getLabel() + number.getDisplayNum() + ")";
 	}
 }
-

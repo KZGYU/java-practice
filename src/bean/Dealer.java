@@ -1,7 +1,7 @@
 package bean;
 
 import Constant.Constant;
-import beanblackjack.ConsoleManager;
+import blackjack.ConsoleManager;
 import common.CommonFunc;
 
 /**

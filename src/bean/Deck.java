@@ -9,6 +9,7 @@ import Constant.SettingConst;
 
 /**
  * デッキクラス
+ * @author copper_dog
  *
  */
 public class Deck {

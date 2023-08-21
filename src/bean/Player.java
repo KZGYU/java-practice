@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import Constant.Constant;
-import beanblackjack.ConsoleManager;
+import blackjack.ConsoleManager;
 import common.CommonFunc;
 
 /**
